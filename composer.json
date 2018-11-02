@@ -1,0 +1,25 @@
+{
+    "name": "xavi/framework",
+    "type": "project",
+    "description": "Framework for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xavi",
+            "email": "xavi@geekshubs.com",
+            "role": "author"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+
+    "require-dev":{
+        "phpunit/phpunit":">4.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Simply\\":"src/"
+        }
+    }
+}
